@@ -1,36 +1,166 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Mi página web sencilla</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Mi página web sencilla</h1>
-    </header>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio de Valentina Aguirre</title>
+  <style>
+         /* Estilos generales */
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #444;
+    }
+
+    /* Estilos del encabezado */
+    header {
+    background-color: #563d7c;
+    padding: 20px;
+    color: #fff;
+    }
+
+    #logo {
+    width: 100px;
+    height: auto;
+    border-radius: 150px;
+    }
+
+    header h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 2em;
+    }
+
+    nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+    nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    }
+
+    nav ul li a:hover {
+    color: #ffeb3b;
+    }
+
+    /* Estilos de las secciones */
+    section {
+    padding: 40px;
+    }
+
+    section h2 {
+    margin: 0 0 20px;
+    font-size: 1.5em;
+    color: #563d7c;
+    }
+
+    section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    section ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #444;
+    }
+
+    section ul li a {
+    color: #563d7c;
+    text-decoration: none;
+    }
+
+    section ul li a:hover {
+    color: #ffeb3b;
+    }
+
+    /* Estilos del pie de página */
+    footer {
+    background-color: #563d7c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+
+    footer p {
+    margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado de la página -->
+  <header>
+    <img id="logo" src="https://i.pinimg.com/564x/ec/53/81/ec5381bce05e5e1659c547309ed28b23.jpg" alt="Logo de mi sitio web">
+    <h1>Mi Portafolio</h1>
     <nav>
       <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#acerca-de">Acerca de</a></li>
+        <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
-    <main id="inicio">
-      <h2>Bienvenido a mi página web</h2>
-      <p>Esta es una página web sencilla creada con HTML y CSS.</p>
-    </main>
-    <section id="acerca-de">
-        <h2>Acerca de Mí</h2>
-        <p>Soy una persona interesada por el mundo de desarrollo web y nuevas tecnologías en este proyecto espero dar a conocer acereca de mi trabajo</p>
-        <p>¡Espero disfrutes tu paso por este lugar! </p>
-    </section>
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Te puedes comunicar conmigo a través de correo electronico o redes sociales !Estare feliz de ayudarte!</p>
-    </section>
-    <footer>
-      <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
-    </footer>
-  </body>
+  </header>
+  
+  <!-- Sección "Acerca de mí" -->
+  <section id="acerca-de-mi">
+    <h2>Acerca de mí</h2>
+    <p>Hola, soy Valentina Aguirre, una apasionada de la programación web y el diseño de páginas. Actualmente estoy inmersa en el fascinante mundo de la programación, adquiriendo conocimientos en diferentes lenguajes como HTML, CSS y JavaScript, para poder crear proyectos innovadores y sorprendentes en el futuro.</p>
+    <p>Me gusta trabajar en equipo y aprender de los demás, ya que creo que el intercambio de ideas y conocimientos es clave para mejorar y crecer profesionalmente. Además, me encanta mantenerme actualizada con las últimas tendencias y herramientas en programación, para poder ofrecer soluciones innovadoras y de calidad a mis clientes.</p>
+    <p>Estoy en busca de nuevas oportunidades para seguir desarrollando mis habilidades y conocimientos en programación, y estoy emocionada por ser parte de proyectos desafiantes y estimulantes en el futuro. Si estás buscando a alguien apasionado, dedicado y comprometido con la excelencia en programación, no dudes en contactarme. ¡Estoy lista para dar lo mejor de mí en cualquier proyecto que se presente!</p>
+  </section>
+  
+  <!-- Sección "Habilidades" -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>No-code</li>
+    </ul>
+  </section>
+  
+  <!-- Sección "Proyectos" -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li><a href="#">Proyecto 1</a></li>
+      <li><a href="#">Proyecto 2</a></li>
+      <li><a href="#">Proyecto 3</a></li>
+    </ul>
+  </section>
+  
+  <!-- Sección "Contacto" -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si deseas contactarme, puedes hacerlo a través de los siguientes medios:</p>
+    <ul>
+      <li>Email: correo@gmail.com</li>
+      <li>Teléfono: 1234567890</li>
+      <li>Redes sociales:</li>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </ul>
+  </section>
+  
+  <!-- Pie de página de la página -->
+  <footer>
+    <p>&copy; 2023 Valentina Aguirre</p>
+  </footer>
+  
+</body>
 </html>
